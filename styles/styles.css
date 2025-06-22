@@ -1,15 +1,22 @@
 html{
+    background-color: black;
+}
+
+html .index{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background: radial-gradient(circle at center, 
     cyan, rgb(77, 136, 212), blue),100% ;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+
+
 .container-main-page{
     background:
   radial-gradient(ellipse at top, #db0707, transparent),
   radial-gradient(ellipse at bottom, #038064, transparent);
-    border:double rgb(245, 147, 0) 10px;
+    border:dashed rgb(245, 147, 0) 10px;
     border-radius: 10%;
     margin:auto;
+    background-clip:padding-box;
 }
 
 .image-container{
@@ -17,7 +24,7 @@ html{
 }
 
 /*1pc = 1 picas that is 1/6th of inch*/
-img{
+.container-main-page img{
     width:5pc;
     border:solid black 8px;
     border-radius: 60%;
@@ -90,4 +97,20 @@ footer{
     font-weight:bold;
 }
 
+/* Recipe HTMLs */
+.each-recipe{
+    color:white;
+}
 
+.each-recipe a{
+    color:yellow;
+    font-weight:1000;
+}
+
+.each-recipe.Ramen{
+    background:linear-gradient(to left, red, orange);
+}
+
+.each-recipe.Pav-Bhaji{
+    background:linear-gradient(to left, green, orange);
+}
