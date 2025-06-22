@@ -5,9 +5,9 @@ html{
 }
 .container-main-page{
     background:
-  radial-gradient(ellipse at top, #e66465, transparent),
-  radial-gradient(ellipse at bottom, #4d9f0c, transparent);
-    border:double red 10px;
+  radial-gradient(ellipse at top, #db0707, transparent),
+  radial-gradient(ellipse at bottom, #038064, transparent);
+    border:double rgb(245, 147, 0) 10px;
     border-radius: 10%;
     margin:auto;
 }
@@ -32,10 +32,50 @@ img{
     padding:2px 16px;
 }
 
-a{
-    color:white
+.recipes a{
+    color:rgb(5, 27, 226);
+    background:radial-gradient(ellipse at top, white, black), radial-gradient(ellipse at bottom, white);
+    padding:8px;
 }
 
+a:hover{
+    color:rgb(243, 9, 9);98
+}
+
+
+.recipes{
+    text-align:center;
+    padding:20px;
+}
 .lasagna{
-    color:white
+    font-weight:bold;
+    background-image: linear-gradient(to left, whitesmoke, red);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin:15px;
+    font-size: 20px;
+}
+
+.pav-bhaji{
+    font-weight:bold;
+    background-image: linear-gradient(to left, white, lightgreen);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin:15px;
+    font-size: 20px;
+}
+
+.ramen{
+    font-weight:bold;
+    background-image: linear-gradient(to left, whitesmoke, orange);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin:15px;
+    font-size: 20px;
 }
