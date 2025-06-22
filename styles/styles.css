@@ -4,8 +4,9 @@ html{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container-main-page{
-    background: radial-gradient(circle at center, 
-    black, rgb(34, 34, 34), blue),100% ;
+    background:
+  radial-gradient(ellipse at top, #e66465, transparent),
+  radial-gradient(ellipse at bottom, #4d9f0c, transparent);
     border:double red 10px;
     border-radius: 10%;
     margin:auto;
@@ -29,4 +30,12 @@ img{
     text-align:center;
     font-weight:700px;
     padding:2px 16px;
+}
+
+a{
+    color:white
+}
+
+.lasagna{
+    color:white
 }
