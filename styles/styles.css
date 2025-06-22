@@ -1,10 +1,13 @@
 html{
-    background-color:rgb(47, 78, 255);
+    background: radial-gradient(circle at center, 
+    cyan, rgb(77, 136, 212), blue),100% ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 .container-main-page{
-    background-color:pink;
-    border:double blue 5px;
+    background: radial-gradient(circle at center, 
+    black, rgb(34, 34, 34), blue),100% ;
+    border:double red 10px;
+    border-radius: 10%;
     margin:auto;
 }
 
@@ -17,7 +20,8 @@ img{
     width:5pc;
     border:solid black 8px;
     border-radius: 60%;
-    background-color: darkblue;
+    background: radial-gradient(circle at center, 
+    rgb(204, 0, 255), rgb(115, 212, 77), blue),100% ;
 }
 
 .odin{
