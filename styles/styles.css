@@ -33,13 +33,14 @@ img{
 }
 
 .recipes a{
-    color:rgb(5, 27, 226);
-    background:radial-gradient(ellipse at top, white, black), radial-gradient(ellipse at bottom, white);
-    padding:8px;
+    border-radius: 40%;
+    display:block;
+    color:rgb(56, 5, 139);
+    background: linear-gradient(135deg, orange 60%, cyan);
 }
 
 a:hover{
-    color:rgb(243, 9, 9);98
+    color:rgb(42, 148, 209);
 }
 
 
@@ -47,35 +48,46 @@ a:hover{
     text-align:center;
     padding:20px;
 }
+
+/*Linear Gradient usage*/
 .lasagna{
     font-weight:bold;
-    background-image: linear-gradient(to left, whitesmoke, red);
+    background-image: linear-gradient(to left, red ,white, green,transparent);
     -webkit-background-clip: text;
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
+    text-shadow: none;
     margin:15px;
     font-size: 20px;
+    padding: 20px 300px;
 }
 
 .pav-bhaji{
     font-weight:bold;
-    background-image: linear-gradient(to left, white, lightgreen);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    background-image: linear-gradient(to left,green, lightgreen, white, orange, transparent);
     background-clip: text;
     color: transparent;
     margin:15px;
     font-size: 20px;
+    padding: 20px 300px;
+    text-shadow:none;
 }
 
 .ramen{
     font-weight:bold;
-    background-image: linear-gradient(to left, whitesmoke, orange);
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
+    background-image: linear-gradient(to left, rgb(212, 118, 55), whitesmoke, red, transparent);
     background-clip: text;
     color: transparent;
     margin:15px;
     font-size: 20px;
+    padding: 20px 280px;
+    text-shadow:none;
 }
+
+footer{
+    color:white;
+    font-weight:bold;
+}
+
+
