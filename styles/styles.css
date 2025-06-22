@@ -1,0 +1,28 @@
+html{
+    background-color:rgb(47, 78, 255);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.container-main-page{
+    background-color:pink;
+    border:double blue 5px;
+    margin:auto;
+}
+
+.image-container{
+    text-align: center;
+}
+
+/*1pc = 1 picas that is 1/6th of inch*/
+img{
+    width:5pc;
+    border:solid black 8px;
+    border-radius: 60%;
+    background-color: darkblue;
+}
+
+.odin{
+    color:white;
+    text-align:center;
+    font-weight:700px;
+    padding:2px 16px;
+}
